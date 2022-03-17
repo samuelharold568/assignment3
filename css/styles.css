@@ -1,0 +1,55 @@
+
+ #container {
+	background-color: #DAB88B;
+ }
+
+ #ul {
+	background-color: seashell;
+ }
+
+ ul li a {
+	font-size: 2rem;
+ }
+
+ #brand h1 {
+	position: absolute;
+	text-decoration: none;
+	top: 5px;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #container-grid {
+	margin: 50px auto;
+ }
+
+ #content-grid div{
+	background-color: #F3E9DD;
+	margin: 4%;
+ }
+
+ footer {
+	background-color: grey;
+	height: 80px;
+ }
+
+ @media  (min-width: 768px) and (max-width: 992px) {
+	main {
+		margin: 0 50px;
+	}
+	
+	#content-grid div {
+		margin: 30px auto;
+	}
+
+	#grid-item-second {
+		position: relative;
+		left: 130px;
+	}
+ }
+
+ @media (max-width:  768px) { 
+	#content-grid div {
+		margin: 30px auto;
+	}
+ }
